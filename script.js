@@ -14,4 +14,7 @@ window.addEventListener('DOMContentLoaded', () => {
         nobutton.style.left = Math.floor(Math.random() * (maxWidth + 1)) + 'px';
         nobutton.style.top = Math.floor(Math.random() * (maxHeight + 1)) + 'px';
     });
+
+    // Add touchstart event for mobile devices
+    yesbutton.addEventListener('touchstart', () => alert('Зөвшөөрсөнд баярлалаа <3 ⸜(｡˃ ᵕ ˂ )⸝'));
 });
