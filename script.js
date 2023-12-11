@@ -11,7 +11,7 @@ window.addEventListener('DOMContentLoaded', () => {
     // Add click event for "Yes" button
     yesbutton.addEventListener('click', () => {
         // Navigate to another HTML page
-        window.location.href = './thankyou.html';
+        window.location.href = 'thankyou.html';
     });
 
     nobutton.addEventListener('mouseover', () => {
